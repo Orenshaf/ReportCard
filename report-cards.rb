@@ -54,8 +54,6 @@ class ReportCards
             @students[student_id].add_course(course)
             @students[student_id].add_grade(course, grade)
         end
-
-       print @students
     end
 
     def generate_file 
